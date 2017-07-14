@@ -127,7 +127,7 @@ export class ProgressCircle extends Component {
             }],
           }}
         >
-          {unfilledColor && progressValue !== 1 ? (
+          {unfilledColor ? (
             <Shape
               radius={radius}
               offset={offset}
